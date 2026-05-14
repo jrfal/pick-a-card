@@ -16,16 +16,20 @@ const CardItem = ({ title, isEditing, onDelete }) => (
 
 export default function App() {
   const [cards, setCards] = useState([
-    "Run Pick a Card without Expo",
-    "Create a very chill spotify playlist for 11pm",
-    "Animated direct motion for player in Tile Engine",
-    "Garden - change from seed to plant after timeout",
-    "Write up business idea for low-code company",
-    "Output list of components used in a Figma file",
-    "Breadbox - move boxes around",
-    "Define 5 node types for Breadbox",
-    "Storyboard player using mini rpg app",
-    "Storyboard referee using mini rpg app",
+    "Create a spotify playlist for a new hour",
+    "Record a track for the seed song for the 24-hour album",
+    "Install pick a card on phone",
+    "Add cards to Bluesky posts",
+    "Write factual retelling of the OKC family's story",
+    "Build a visual matrix maker to output JS",
+    "Build a tool to compose JS functions using react flow",
+    "SF Jukebox native app: load current fight and let you play songs from it",
+    "Storyboard: render a sign-on form",
+    "Dism-arena: Use actor list to cue goblin's action",
+    "Storyboarder: Create JSON for linked pages using react-flow",
+    "Arrival: put form in card and widen continue button",
+    "Arrival: validation",
+    "Arrival: register and account recovery links",
   ]);
 
   const [drawnCard, setDrawnCard] = useState(null);
